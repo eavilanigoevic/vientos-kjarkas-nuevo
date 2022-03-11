@@ -11,7 +11,7 @@ const data = {
     },
     {
       name: 'Juego de zampoñas en afinación Do',
-      slug: 'zamponias-afinacion-dp',
+      slug: 'zamponias-afinacion-do',
       category: 'zamponias',
       image: '/images/vk2.jpg',
       description:
