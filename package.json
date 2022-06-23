@@ -1,0 +1,21 @@
+{
+    "name": "vientos-kjarkas",
+    "type": "module",
+    "version": "1.0.0",
+    "description": "Ecommerce website like amazon",
+    "main": "index.js",
+    "scripts": {
+      "build": "cd frontend && npm install && npm run build",
+      "start": "nodemon --watch backend --exec node --experimental-modules backend/server.js"
+    },
+    "repository": {
+      "eslint": "^7.9.0",
+      "eslint-plugin-react": "^7.21.2",
+      "nodemon": "^2.0.4"
+    },
+    "engines": {    
+        "node": "16.14.0",
+        "npm": "8.3.1"
+    }
+  
+  }
