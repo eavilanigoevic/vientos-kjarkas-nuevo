@@ -5,6 +5,7 @@ import path from 'path';
 const app = express();
 
 const __dirname = path.resolve();
+console.log(__dirname);
 
 app.use(express.static(path.join(__dirname, '/frontend/build')));
 app.get('*', (req, res) =>
