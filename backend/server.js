@@ -1,7 +1,9 @@
+const path = require('path');
 import express from 'express';
 import data from './data.js';
 
 const app = express();
+
 const __dirname = path.resolve();
 
 app.use(express.static(path.join(__dirname, '/frontend/build')));
