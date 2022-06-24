@@ -1,6 +1,7 @@
 const data = {
   products: [
     {
+      _id: '1',
       name: 'Quena',
       slug: 'quenas-quena-bambu',
       category: 'quenas',
@@ -13,6 +14,7 @@ const data = {
       countInStock: 10,
     },
     {
+      _id: '2',
       name: 'Juego de zampoñas en afinación Do',
       slug: 'zamponias-afinacion-do',
       category: 'zamponias',
@@ -25,6 +27,7 @@ const data = {
       countInStock: 0,
     },
     {
+      _id: '3',
       name: 'Malta Cromática de tres filas',
       slug: 'zamponias-malta-cromatica',
       category: 'zamponias',
@@ -37,6 +40,7 @@ const data = {
       countInStock: 10,
     },
     {
+      _id: '4',
       name: 'Zampoña Zanka en afinación Mi menor',
       slug: 'zamponias-zanka-mi',
       category: 'zamponias',
@@ -48,6 +52,7 @@ const data = {
       countInStock: 10,
     },
     {
+      _id: '5',
       name: 'Zampoña Malta en afinación Mi menor',
       slug: 'zamponias-malta-mi',
       category: 'zamponias',
@@ -59,6 +64,7 @@ const data = {
       countInStock: 0,
     },
     {
+      _id: '6',
       name: 'Juego de zampoñas en afinación Mi menor',
       slug: 'zamponias-juego-mi',
       category: 'zamponias',
